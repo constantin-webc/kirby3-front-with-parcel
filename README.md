@@ -21,7 +21,7 @@
 - https://v2.parceljs.org/getting-started/migration/
 
 ## NB:
-all CSS rules must end with a ```;``` otherwise livereload will not work. don't:
+all CSS rules must end with a ```;``` otherwise livereload  (sometimes) not work. don't:
 ```
 .foo{
     color:black
