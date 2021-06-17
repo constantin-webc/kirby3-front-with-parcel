@@ -1,4 +1,7 @@
 # Kirby3 front with Parcel V2
+
+A very basic setup to use ParcelV2 with Kirby3  
+
 1. ```git clone https://github.com/constantinjoly/kirby3-front-with-parcel.git your-new-project```
 2. ```cd your-new-project```
 3. ```npm install```
