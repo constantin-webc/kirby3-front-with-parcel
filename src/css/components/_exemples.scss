@@ -1,0 +1,15 @@
+// Test Purge CSS
+#testJs {
+  color: blue;
+  background-color:yellow;
+  padding:1rem;
+  max-width:55rem;
+  margin:0 auto;
+  @media(min-width:1024px){
+    padding:3rem;
+  }
+}
+
+.testPurgeCSS{
+  background-color:red
+}

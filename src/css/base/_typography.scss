@@ -1,0 +1,12 @@
+// Recommended
+// $type-base-size: 1rem !default;
+$type-base-size: 1.125rem !default;
+
+body {
+  // Ensure base applied as default for all other elements
+  font-size: 16px;
+  font-family: $body-font-family;
+  line-height: 1.5;
+  min-height: 100vh;
+  color: $body-text-color;
+}

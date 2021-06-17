@@ -1,0 +1,22 @@
+{
+    "modules": false,
+    "plugins": {
+        "autoprefixer": {},
+        "postcss-combine-media-query":{
+            "sort": true
+        },
+        "cssnano":{
+            preset: "default"
+        },
+        "postcss-purgecss":{
+            content: [
+            './site/templates/*.php',
+            './site/templates/**/*.php',
+            './site/snippets/*.php',
+            './site/snippets/**/*.php',
+            './src/js/**/*.js',
+            ],
+        },
+        "postcss-critical-css": {}
+    }
+}
