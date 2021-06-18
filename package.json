@@ -1,11 +1,11 @@
 {
-  "name": "parcel-workflow",
+  "name": "kirby3-front-with-parcel",
   "version": "1.0.0",
   "description": "Parcel workfow",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/constantinjoly/parcel-workflow"
+    "url": "https://github.com/constantinjoly/kirby3-front-with-parcel"
   },
   "scripts": {
     "dev": "parcel watch ./src/css/style.scss ./src/js/main.js --dist-dir ./public --public-url .",
