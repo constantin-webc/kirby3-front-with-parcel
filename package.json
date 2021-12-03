@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "parcel watch ./src/css/style.scss ./src/js/main.js --dist-dir ./public --public-url .",
-    "build": "parcel build --no-content-hash ./src/css/style.scss ./src/js/main.js --dist-dir ./public --public-url ."
+    "build": "parcel build --no-content-hash --no-source-maps ./src/css/style.scss ./src/js/main.js --dist-dir ./public --public-url ."
   },
   "browserslist": [
     "defaults",
