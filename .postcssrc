@@ -6,16 +6,16 @@
             "sort": true
         },
         "cssnano":{
-            preset: "default"
+            "preset": "default"
         },
         "postcss-purgecss":{
-            content: [
-            './site/templates/*.php',
-            './site/templates/**/*.php',
-            './site/snippets/*.php',
-            './site/snippets/**/*.php',
-            './src/js/**/*.js',
-            ],
+            "content": [
+            "./site/templates/*.php",
+            "./site/templates/**/*.php",
+            "./site/snippets/*.php",
+            "./site/snippets/**/*.php",
+            "./src/js/**/*.js"
+            ]           
         },
         "postcss-critical-css": {}
     }
